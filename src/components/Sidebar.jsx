@@ -63,9 +63,36 @@ const Sidebar = () => {
       )}
 
       <div className="md:block hidden fixed top-[25%] z-10">
-        <div>
-          <a href="Homepage" className="">
+        <div className="flex flex-col">
+          <a
+            href="Homepage"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110"
+          >
             <HomeIcon />
+          </a>
+          <a
+            href="Homepage"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110"
+          >
+            <ScienceIcon />
+          </a>
+          <a
+            href="Homepage"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110"
+          >
+            <WorkIcon />
+          </a>
+          <a
+            href="Homepage"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110"
+          >
+            <DescriptionIcon />
+          </a>
+          <a
+            href="Homepage"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110"
+          >
+            <PhoneIcon />
           </a>
         </div>
       </div>
