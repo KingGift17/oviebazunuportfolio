@@ -1,6 +1,6 @@
 import React from "react";
 import GridView from "@mui/icons-material/GridView";
-import WorkItem from "./WorkItem";
+import WorkItem from "./items/WorkItem";
 
 const data = [
   {

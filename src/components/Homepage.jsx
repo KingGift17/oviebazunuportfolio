@@ -49,8 +49,8 @@ const Homepage = () => {
             <InstagramIcon sx={{ fontSize: 30, cursor: "pointer" }} />
           </div>
         </div>
-        <div className="h-10 bg-[#312854]"></div>
       </div>
+      <div className="h-10 bg-[#312854]"></div>
     </div>
   );
 };
