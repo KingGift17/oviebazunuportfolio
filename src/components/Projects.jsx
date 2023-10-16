@@ -3,6 +3,8 @@ import ProjectItem from "./items/ProjectItem";
 import ecomWebsiteImg from "../assets/ecomHomepage.png";
 import foodWebsiteImg from "../assets/koopaburger.png";
 import portfolioImg from "../assets/portfoliohomepage.png";
+import reactLogo from "../assets/React-icon.png";
+import viteLogo from "../assets/vite-icon.png";
 
 const projectData = [
   {
@@ -12,6 +14,36 @@ const projectData = [
     backEnd: "Firebase Authentication, Firebase Storage, Stripe",
     img: ecomWebsiteImg,
     websiteUrl: "https://giftkart.vercel.app",
+    techStack: [
+      {
+        name: "React",
+        logo: reactLogo,
+      },
+      {
+        name: "Vite",
+        logo: viteLogo,
+      },
+      {
+        name: "MUI 5",
+        logo: viteLogo,
+      },
+      {
+        name: "Firebase",
+        logo: viteLogo,
+      },
+      {
+        name: "Functions",
+        logo: viteLogo,
+      },
+      {
+        name: "Github",
+        logo: viteLogo,
+      },
+      {
+        name: "Vercel",
+        logo: viteLogo,
+      },
+    ],
   },
   {
     title: "Koopa Burgers",
@@ -20,6 +52,16 @@ const projectData = [
     backEnd: "Firebase Authentication, Firebase Storage, Stripe",
     img: foodWebsiteImg,
     websiteUrl: "https://koopa-burgers.vercel.app",
+    techStack: [
+      {
+        name: "React",
+        logo: reactLogo,
+      },
+      {
+        name: "Vite",
+        logo: viteLogo,
+      },
+    ],
   },
 ];
 
@@ -34,7 +76,7 @@ const Projects = () => {
         from using different parts of vite and react along with different tools
         for payment and authentication such as Firebase and Stripe.
       </p>
-      <div className="py-10">
+      <div className="py-6">
         {projectData.map((item, index) => (
           <ProjectItem
             key={index}
@@ -44,6 +86,7 @@ const Projects = () => {
             backEnd={item.backEnd}
             image={item.img}
             websiteUrl={item.websiteUrl}
+            techStack={item.techStack}
           />
         ))}
       </div>
