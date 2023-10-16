@@ -8,30 +8,37 @@ import PhoneIcon from "@mui/icons-material/Phone";
 
 const Sidebar = () => {
   const [nav, setNav] = useState(false);
-  const handleNav = () => {
-    setNav(!nav);
+
+  const openNav = () => {
+    setNav(true);
+  };
+
+  const closeNav = () => {
+    setNav(false);
   };
 
   return (
     <div>
       <span
-        onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden"
+        onClick={() => setNav(!nav)}
+        className="absolute top-4 right-4 z-[99] md:hidden  rounded-full shadow-lg bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
       >
-        <MenuIcon />
+        <MenuIcon sx={{ fontSize: 30 }} />
       </span>
       {nav ? (
         <div className="fixed w-full h-screen bg-[#353278] flex flex-col p-5 justify-center items-center z-20">
           <a
             href="#homepage"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
           >
             <HomeIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Homepage</span>
           </a>
           <a
-            href="#project"
+            href="#projects"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
           >
             <ScienceIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Projects</span>
@@ -39,6 +46,7 @@ const Sidebar = () => {
           <a
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
           >
             <GridViewIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Work</span>
@@ -46,6 +54,7 @@ const Sidebar = () => {
           <a
             href="resume"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
           >
             <DescriptionIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Resume</span>
@@ -53,6 +62,7 @@ const Sidebar = () => {
           <a
             href="#contact"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
           >
             <PhoneIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Contact</span>
@@ -67,30 +77,35 @@ const Sidebar = () => {
           <a
             href="#homepage"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
           >
             <HomeIcon sx={{ fontSize: 30 }} />
           </a>
           <a
             href="#projects"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
           >
             <ScienceIcon sx={{ fontSize: 30 }} />
           </a>
           <a
             href="#work"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
           >
             <GridViewIcon sx={{ fontSize: 30 }} />
           </a>
           <a
             href="#resume"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
           >
             <DescriptionIcon sx={{ fontSize: 30 }} />
           </a>
           <a
             href="#contact"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
           >
             <PhoneIcon sx={{ fontSize: 30 }} />
           </a>

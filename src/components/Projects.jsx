@@ -5,6 +5,12 @@ import foodWebsiteImg from "../assets/koopaburger.png";
 import portfolioImg from "../assets/portfoliohomepage.png";
 import reactLogo from "../assets/React-icon.png";
 import viteLogo from "../assets/vite-icon.png";
+import firebaseLogo from "../assets/firebase-icon.png";
+import fireauthLogo from "../assets/fireauth-icon.png";
+import mui5Logo from "../assets/MUI5-icon.png";
+import githubLogo from "../assets/GitHub-icon.png";
+import vercelLogo from "../assets/vercel-icon.png";
+import framerLogo from "../assets/framerMotion-icon.jpg";
 
 const projectData = [
   {
@@ -25,23 +31,27 @@ const projectData = [
       },
       {
         name: "MUI 5",
-        logo: viteLogo,
+        logo: mui5Logo,
       },
       {
         name: "Firebase",
-        logo: viteLogo,
+        logo: firebaseLogo,
       },
       {
-        name: "Functions",
-        logo: viteLogo,
+        name: "Authentication",
+        logo: fireauthLogo,
       },
       {
         name: "Github",
-        logo: viteLogo,
+        logo: githubLogo,
       },
       {
         name: "Vercel",
-        logo: viteLogo,
+        logo: vercelLogo,
+      },
+      {
+        name: "Framer-Motion",
+        logo: framerLogo,
       },
     ],
   },
@@ -71,7 +81,7 @@ const Projects = () => {
       <h1 className="text-4xl font-bold text-center text-[#353278]">
         Projects
       </h1>
-      <p className="text-center py-8">
+      <p className="text-center text-base py-8">
         The most recent projects which i have done. All of these projects range
         from using different parts of vite and react along with different tools
         for payment and authentication such as Firebase and Stripe.
