@@ -50,7 +50,6 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="h-10 bg-[#312854]"></div>
     </div>
   );
 };
