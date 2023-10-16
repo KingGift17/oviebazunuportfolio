@@ -41,7 +41,7 @@ const ProjectItem = ({
         <h1 className="max-w-fit border-b-4 border-b-[#312854] text-2xl font-bold text-[#343278]">
           Technology Stack
         </h1>
-        <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
           {techStack.map((tech, index) => (
             <div key={index} className="tech-item flex flex-col items-center">
               <img src={tech.logo} alt={tech.name} className="w-16 h-16 mt-4" />

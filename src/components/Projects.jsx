@@ -11,6 +11,7 @@ import mui5Logo from "../assets/MUI5-icon.png";
 import githubLogo from "../assets/GitHub-icon.png";
 import vercelLogo from "../assets/vercel-icon.png";
 import framerLogo from "../assets/framerMotion-icon.jpg";
+import sassLogo from "../assets/Sass-icon.png";
 
 const projectData = [
   {
@@ -28,6 +29,10 @@ const projectData = [
       {
         name: "Vite",
         logo: viteLogo,
+      },
+      {
+        name: "Sass",
+        logo: sassLogo,
       },
       {
         name: "MUI 5",
@@ -70,6 +75,18 @@ const projectData = [
       {
         name: "Vite",
         logo: viteLogo,
+      },
+      {
+        name: "MUI 5",
+        logo: mui5Logo,
+      },
+      {
+        name: "Github",
+        logo: githubLogo,
+      },
+      {
+        name: "Vercel",
+        logo: vercelLogo,
       },
     ],
   },
