@@ -2,8 +2,8 @@ import { useState } from "react";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 import Homepage from "./components/Homepage";
-import Work from "./components/Work";
-import Projects from "./components/Projects";
+import Work from "./assets/data/Work";
+import Projects from "./assets/data/Projects";
 
 function App() {
   return (
