@@ -4,6 +4,7 @@ import "./App.css";
 import Homepage from "./components/Homepage";
 import Work from "./assets/data/Work";
 import Projects from "./assets/data/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Projects />
       <div className="h-10 bg-[#312854]"></div>
       <Work />
-      <div className="h-10 bg-[#312854]"></div>
+      <Footer />
     </div>
   );
 }

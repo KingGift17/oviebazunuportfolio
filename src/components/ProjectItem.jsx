@@ -27,7 +27,7 @@ const ProjectItem = ({
           <h2 className="text-xl font-semibold text-[#312854]">Back End</h2>
           <p className="pb-4 text-base text-stone-700">{backEnd}</p>
           <a
-            className="inline-block text-base px-2 py-1 font-semibold text-white bg-[#312854] hover:opacity-70 rounded-md mb-4"
+            className="inline-block text-base px-2 py-1 font-semibold text-white bg-[#312854] hover:scale-110 ease-in duration-200 rounded-md mb-4"
             href={websiteUrl}
             target="_blank"
           >
