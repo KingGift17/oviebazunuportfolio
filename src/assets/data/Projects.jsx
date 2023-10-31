@@ -109,7 +109,7 @@ const projectData = [
     frontEnd: "Vite, React, Tailwind, MUI",
     backEnd: "N/A",
     img: portfolioImg,
-    websiteUrl: "https://oviebazunuportfolio.vercel.app",
+    websiteUrl: "https://www.oviebazunu.com",
     techStack: [
       { name: "React", logo: reactLogo },
       { name: "Vite", logo: viteLogo },
