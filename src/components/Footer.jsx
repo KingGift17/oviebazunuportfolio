@@ -35,9 +35,9 @@ const Footer = () => {
           <h1 className="text-2xl py-2">Others</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a
-              href="public\Ovie Bazunu CV 2(finished).pdf"
+              href={resume}
               target="_blank"
-              download={resume}
+              download="Ovie Bazunu CV 2(finished).pdf"
               rel="noopener noreferrer"
               locale={false}
             >
