@@ -52,7 +52,8 @@ const Sidebar = () => {
             <span className="pl-4">Work</span>
           </a>
           <a
-            href="src\assets\data\Ovie Bazunu CV 2(finished).pdf"
+            href="public/Ovie Bazunu CV 2(finished).pdf"
+            locale={false}
             target="_blank"
             rel="noopener noreferrer"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -98,8 +99,9 @@ const Sidebar = () => {
             <GridViewIcon sx={{ fontSize: 30 }} />
           </a>
           <a
-            href="src\assets\data\Ovie Bazunu CV 2(finished).pdf"
+            href="public/Ovie Bazunu CV 2(finished).pdf"
             target="_blank"
+            locale={false}
             rel="noopener noreferrer"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
             onClick={closeNav}

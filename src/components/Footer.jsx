@@ -34,9 +34,10 @@ const Footer = () => {
           <h1 className="text-2xl py-2">Others</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a
-              href="src\assets\data\Ovie Bazunu CV 2(finished).pdf"
+              href="public/Ovie Bazunu CV 2(finished).pdf"
               target="_blank"
               rel="noopener noreferrer"
+              locale={false}
             >
               <DescriptionIcon sx={{ fontSize: 25, paddingRight: "4px" }} />
               Resume
