@@ -5,7 +5,7 @@ import ScienceIcon from "@mui/icons-material/Science";
 import GridViewIcon from "@mui/icons-material/GridView";
 import DescriptionIcon from "@mui/icons-material/Description";
 import PhoneIcon from "@mui/icons-material/Phone";
-import resume from "../../public/Ovie Bazunu CV 2(finished).pdf";
+import resume from "../../public/Ovie Bazunu CV.pdf";
 
 const Sidebar = () => {
   const [nav, setNav] = useState(false);
@@ -56,7 +56,7 @@ const Sidebar = () => {
             href={resume}
             locale={false}
             target="_blank"
-            download="Ovie Bazunu CV 2(finished).pdf"
+            download="Ovie Bazunu CV.pdf"
             rel="noopener noreferrer"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={closeNav}
@@ -104,7 +104,7 @@ const Sidebar = () => {
             href={resume}
             target="_blank"
             locale={false}
-            download="Ovie Bazunu CV 2(finished).pdf"
+            download="Ovie Bazunu CV.pdf"
             rel="noopener noreferrer"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
             onClick={closeNav}

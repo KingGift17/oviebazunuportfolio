@@ -3,7 +3,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import resume from "../../public/Ovie Bazunu CV 2(finished).pdf";
+import resume from "../../public/Ovie Bazunu CV.pdf";
 
 const Footer = () => {
   return (
@@ -37,7 +37,7 @@ const Footer = () => {
             <a
               href={resume}
               target="_blank"
-              download="Ovie Bazunu CV 2(finished).pdf"
+              download="Ovie Bazunu CV.pdf"
               rel="noopener noreferrer"
               locale={false}
             >
