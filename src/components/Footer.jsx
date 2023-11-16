@@ -46,7 +46,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-base pb-2 hover:opacity-70">
-            <a href="https://github.com/KingGift17" target="_blank">
+            <a href="https://github.com/oviebazunu" target="_blank">
               <GitHubIcon /> GitHub
             </a>
           </div>

@@ -37,7 +37,7 @@ const Homepage = () => {
             />
           </h2>
           <div className="pt-6 flex justify-between max-w-[200px] w-full">
-            <a href="https://github.com/KingGift17" target="_blank">
+            <a href="https://github.com/oviebazunu" target="_blank">
               <GitHubIcon sx={{ fontSize: 30, cursor: "pointer" }} />
             </a>
             <a
