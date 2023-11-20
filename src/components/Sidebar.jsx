@@ -37,20 +37,20 @@ const Sidebar = () => {
             <span className="pl-4">Homepage</span>
           </a>
           <a
-            href="#projects"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-            onClick={closeNav}
-          >
-            <ScienceIcon sx={{ fontSize: 30 }} />
-            <span className="pl-4">Projects</span>
-          </a>
-          <a
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={closeNav}
           >
             <GridViewIcon sx={{ fontSize: 30 }} />
             <span className="pl-4">Work</span>
+          </a>
+          <a
+            href="#projects"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-200 shadow-gray-500 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            onClick={closeNav}
+          >
+            <ScienceIcon sx={{ fontSize: 30 }} />
+            <span className="pl-4">Projects</span>
           </a>
           <a
             href={resume}
@@ -87,18 +87,18 @@ const Sidebar = () => {
             <HomeIcon sx={{ fontSize: 30 }} />
           </a>
           <a
-            href="#projects"
-            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
-            onClick={closeNav}
-          >
-            <ScienceIcon sx={{ fontSize: 30 }} />
-          </a>
-          <a
             href="#work"
             className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
             onClick={closeNav}
           >
             <GridViewIcon sx={{ fontSize: 30 }} />
+          </a>
+          <a
+            href="#projects"
+            className="rounded-full shadow-lg shadow-gray-500 bg-[#353278] text-[white] m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-150"
+            onClick={closeNav}
+          >
+            <ScienceIcon sx={{ fontSize: 30 }} />
           </a>
           <a
             href={resume}

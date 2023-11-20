@@ -10,11 +10,11 @@ const Footer = () => {
     <div id="contact" className="w-full bg-[#312854] md:pl-20">
       <div className="max-w-[1540px] mx-auto font-semibold mx-auto px-8 py-6 text-lg lg:grid lg:grid-cols-4 lg:gap-8 lg:py-8 lg:px-20 pb-10">
         <div className="pb-4 text-white lg:p-0">
-          <h1 className="text-2xl py-2">Portfolio</h1>
+          <h1 className="text-2xl py-2 underline">Portfolio</h1>
           <div className="text-base">Built by Ovie Bazunu</div>
         </div>
         <div className="pb-4 text-white lg:p-0">
-          <h1 className="text-2xl py-2">Live Websites</h1>
+          <h1 className="text-2xl py-2 underline">Live Websites</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a href="https://giftkart.vercel.app" target="_blank">
               GiftKart
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pb-4 text-white lg:p-0">
-          <h1 className="text-2xl py-2">Others</h1>
+          <h1 className="text-2xl py-2 underline">Others</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a
               href={resume}
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pb-4 text-white lg:p-0">
-          <h1 className="text-2xl py-2">Contact Me</h1>
+          <h1 className="text-2xl py-2 underline">Contact Me</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a href="mailto:obaz1717@gmail.com">
               <EmailIcon /> Email

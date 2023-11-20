@@ -13,6 +13,7 @@ import vercelLogo from "../images/vercel-icon.png";
 import framerLogo from "../images/framerMotion-icon.jpg";
 import sassLogo from "../images/Sass-icon.png";
 import tailwindLogo from "../images/tailwind-icon.png";
+import reduxLogo from "../images/Redux-icon.png";
 
 const projectData = [
   {
@@ -27,6 +28,10 @@ const projectData = [
       {
         name: "React",
         logo: reactLogo,
+      },
+      {
+        name: "Redux",
+        logo: reduxLogo,
       },
       {
         name: "Vite",
@@ -112,6 +117,7 @@ const projectData = [
     websiteUrl: "https://www.oviebazunu.com",
     techStack: [
       { name: "React", logo: reactLogo },
+      { name: "Redux", logo: reduxLogo },
       { name: "Vite", logo: viteLogo },
       { name: "Tailwind", logo: tailwindLogo },
       { name: "MUI 5", logo: mui5Logo },
