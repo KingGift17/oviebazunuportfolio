@@ -19,7 +19,7 @@ const Homepage = () => {
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
             <TypeAnimation
               sequence={[
-                "I'm a Front-End Developer",
+                "I'm a Software Developer",
                 2000,
                 "I'm a Programmer",
                 2000,
