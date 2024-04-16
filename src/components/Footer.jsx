@@ -55,7 +55,7 @@ const Footer = () => {
           <h1 className="text-2xl py-2 underline">Contact Me</h1>
           <div className="text-base pb-2 hover:opacity-70">
             <a href="mailto:obaz1717@gmail.com">
-              <EmailIcon /> Email
+              <EmailIcon /> obaz1717@gmail.com
             </a>
           </div>
           <div className="text-base pb-2 hover:opacity-70">
