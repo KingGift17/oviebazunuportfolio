@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "../../components/ProjectItem";
 import ecomWebsiteImg from "../images/ecomHomepage.png";
 import foodWebsiteImg from "../images/koopaburger.png";
-import portfolioImg from "../images/portfoliohomepage.png";
+import votingWebsiteImg from "../images/votingplatform-1.png";
 import reactLogo from "../images/React-icon.png";
 import viteLogo from "../images/vite-icon.png";
 import firebaseLogo from "../images/firebase-icon.png";
@@ -14,6 +14,9 @@ import framerLogo from "../images/framerMotion-icon.jpg";
 import sassLogo from "../images/Sass-icon.png";
 import tailwindLogo from "../images/tailwind-icon.png";
 import reduxLogo from "../images/Redux-icon.png";
+import typescriptLogo from "../images/typescript-icon.png";
+import nextjsLogo from "../images/next.js-icon.png";
+import mongodbLogo from "../images/mongodb-icon.png";
 
 const projectData = [
   {
@@ -77,6 +80,33 @@ const projectData = [
     ],
   },
   {
+    title: "Shangrila Voting Platform",
+    details:
+      "A voting platform created using Next.js as the framework with Typescript, Tailwind.css and MongoDB as the database.",
+    frontEnd: "Next.js, Typescript, Tailwind Redux, MUI",
+    backEnd: "Next.js, MongoDB",
+    img: votingWebsiteImg,
+    websiteUrl: "https://votingplatform-ivory.vercel.app",
+    techStack: [
+      { name: "Next.js", logo: nextjsLogo },
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "Typescript", logo: typescriptLogo },
+      { name: "React", logo: reactLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Tailwind", logo: tailwindLogo },
+      { name: "MUI 5", logo: mui5Logo },
+      { name: "Github", logo: githubLogo },
+      { name: "Vercel", logo: vercelLogo },
+    ],
+    design: [
+      { color: "#5b6c5d" },
+      { color: "#3b82f6" },
+      { color: "#ef4444" },
+      { color: "#eab308" },
+      { color: "#9ca3af" },
+    ],
+  },
+  {
     title: "Koopa Burgers",
     details: "A burger website created using vite & react along with MUI 5 ",
     frontEnd: "Vite, React, Sass, Redux, MUI",
@@ -106,30 +136,6 @@ const projectData = [
       },
     ],
     design: [{ color: "#E78C49" }, { color: "#FFF" }, { color: "#121619" }],
-  },
-  {
-    title: "Ovie G Bazunu Portfolio",
-    details:
-      "A portfolio for Ovie Bazunu detailing his projects, work timeline and employment information. Made using Vite with react along with tailwind css",
-    frontEnd: "Vite, React, Tailwind, MUI",
-    backEnd: "N/A",
-    img: portfolioImg,
-    websiteUrl: "https://www.oviebazunu.com",
-    techStack: [
-      { name: "React", logo: reactLogo },
-      { name: "Redux", logo: reduxLogo },
-      { name: "Vite", logo: viteLogo },
-      { name: "Tailwind", logo: tailwindLogo },
-      { name: "MUI 5", logo: mui5Logo },
-      { name: "Github", logo: githubLogo },
-      { name: "Vercel", logo: vercelLogo },
-    ],
-    design: [
-      { color: "#312854" },
-      { color: "#343278" },
-      { color: "#FFF" },
-      { color: "#78716c" },
-    ],
   },
 ];
 
