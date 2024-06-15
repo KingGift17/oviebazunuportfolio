@@ -10,6 +10,8 @@ const ProjectItem = ({
   techStack,
   design,
 }) => {
+  const firstColor = design.length > 0 ? design[0].color : "#312854";
+
   return (
     <>
       <div class="lg:wrap pt-10 lg:flex mt-[40px]">
@@ -18,18 +20,24 @@ const ProjectItem = ({
             className="border-b-4 border-b-[#312854] text-3xl font-bold hover:opacity-70 text-[#353278]"
             href={websiteUrl}
             target="_blank"
+            style={{ borderBottomColor: firstColor, color: firstColor }}
           >
             <span>{title}</span>
           </a>
           <p className="pt-5 text-base text-stone-700">{details}</p>
-          <h2 className="text-xl font-semibold text-[#312854]">Front End</h2>
+          <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
+            Front End
+          </h2>
           <p className="text-base text-stone-700">{frontEnd}</p>
-          <h2 className="text-xl font-semibold text-[#312854]">Back End</h2>
+          <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
+            Back End
+          </h2>
           <p className="pb-4 text-base text-stone-700">{backEnd}</p>
           <a
             className="inline-block text-base px-2 py-1 font-semibold text-white bg-[#312854] hover:scale-110 ease-in duration-200 rounded-md mb-4"
             href={websiteUrl}
             target="_blank"
+            style={{ backgroundColor: firstColor }}
           >
             Visit Website
           </a>
@@ -39,7 +47,10 @@ const ProjectItem = ({
         </div>
       </div>
       <div>
-        <h1 className="max-w-fit border-b-4 border-b-[#312854] text-2xl font-bold text-[#343278]">
+        <h1
+          className="max-w-fit border-b-4 text-2xl font-bold mt-12"
+          style={{ borderBottomColor: firstColor, color: firstColor }}
+        >
           Technology Stack
         </h1>
         <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
@@ -54,7 +65,10 @@ const ProjectItem = ({
         </div>
       </div>
       <div>
-        <h1 className="max-w-fit border-b-4 border-b-[#312854] text-2xl font-bold text-[#343278] mt-12">
+        <h1
+          className="max-w-fit border-b-4 text-2xl font-bold mt-12"
+          style={{ borderBottomColor: firstColor, color: firstColor }}
+        >
           Design
         </h1>
         <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
@@ -76,6 +90,7 @@ const ProjectItem = ({
             </div>
           ))}
         </div>
+        <div className="h-6 mt-8" style={{ backgroundColor: firstColor }}></div>
       </div>
     </>
   );

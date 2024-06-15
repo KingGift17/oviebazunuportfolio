@@ -2,6 +2,7 @@ import React from "react";
 import ProjectItem from "../../components/ProjectItem";
 import ecomWebsiteImg from "../images/ecomHomepage.png";
 import foodWebsiteImg from "../images/koopaburger.png";
+import zooSimulatorImg from "../images/zooSimulator.png";
 import votingWebsiteImg from "../images/votingplatform-1.png";
 import reactLogo from "../images/React-icon.png";
 import viteLogo from "../images/vite-icon.png";
@@ -17,6 +18,7 @@ import reduxLogo from "../images/Redux-icon.png";
 import typescriptLogo from "../images/typescript-icon.png";
 import nextjsLogo from "../images/next.js-icon.png";
 import mongodbLogo from "../images/mongodb-icon.png";
+import javascriptLogo from "../images/javascript-icon.png";
 
 const projectData = [
   {
@@ -31,6 +33,10 @@ const projectData = [
       {
         name: "React",
         logo: reactLogo,
+      },
+      {
+        name: "JavaScript",
+        logo: javascriptLogo,
       },
       {
         name: "Redux",
@@ -70,11 +76,11 @@ const projectData = [
       },
     ],
     design: [
+      { color: "#0a1d37" },
       { color: "#9DC4B5" },
       { color: "#d6e5fb" },
       { color: "#ceebe9" },
       { color: "#e2f2b2" },
-      { color: "#0a1d37" },
       { color: "#BAD9A2" },
       { color: "#484A39" },
     ],
@@ -83,7 +89,7 @@ const projectData = [
     title: "Shangrila Voting Platform",
     details:
       "A voting platform created using Next.js as the framework with Typescript, Tailwind.css and MongoDB as the database.",
-    frontEnd: "Next.js, Typescript, Tailwind Redux, MUI",
+    frontEnd: "Next.js, React, Typescript, Tailwind Redux, MUI",
     backEnd: "Next.js, MongoDB",
     img: votingWebsiteImg,
     websiteUrl: "https://votingplatform-ivory.vercel.app",
@@ -107,6 +113,38 @@ const projectData = [
     ],
   },
   {
+    title: "Zoo Simulator",
+    details:
+      "A zoo simulator built using react and tailwind. You can feed the animals to keep them alive. If monkeys and giraffes are under a certain percentage of health they die. If an elephant is under a certain amount they become injured and then after time progresses again they die.",
+    frontEnd: "React, Javascript, Tailwind",
+    backEnd: "N/A",
+    img: zooSimulatorImg,
+    websiteUrl: "https://zoo-simulator-inky.vercel.app/",
+    techStack: [
+      {
+        name: "React",
+        logo: reactLogo,
+      },
+      {
+        name: "JavaScript",
+        logo: javascriptLogo,
+      },
+      {
+        name: "Tailwind",
+        logo: tailwindLogo,
+      },
+      {
+        name: "Github",
+        logo: githubLogo,
+      },
+      {
+        name: "Vercel",
+        logo: vercelLogo,
+      },
+    ],
+    design: [{ color: "#c5b4e3" }, { color: "#0E16AF" }, { color: "#15803d" }],
+  },
+  {
     title: "Koopa Burgers",
     details: "A burger website created using vite & react along with MUI 5 ",
     frontEnd: "Vite, React, Sass, Redux, MUI",
@@ -121,6 +159,10 @@ const projectData = [
       {
         name: "Vite",
         logo: viteLogo,
+      },
+      {
+        name: "JavaScript",
+        logo: javascriptLogo,
       },
       {
         name: "MUI 5",
