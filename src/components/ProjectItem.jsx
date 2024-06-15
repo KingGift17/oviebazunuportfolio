@@ -14,36 +14,39 @@ const ProjectItem = ({
 
   return (
     <>
-      <div class="lg:wrap pt-10 lg:flex mt-[40px]">
-        <div>
-          <a
-            className="border-b-4 border-b-[#312854] text-3xl font-bold hover:opacity-70 text-[#353278]"
-            href={websiteUrl}
-            target="_blank"
-            style={{ borderBottomColor: firstColor, color: firstColor }}
-          >
-            <span>{title}</span>
-          </a>
-          <p className="pt-5 text-base text-stone-700">{details}</p>
-          <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
-            Front End
-          </h2>
-          <p className="text-base text-stone-700">{frontEnd}</p>
-          <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
-            Back End
-          </h2>
-          <p className="pb-4 text-base text-stone-700">{backEnd}</p>
-          <a
-            className="inline-block text-base px-2 py-1 font-semibold text-white bg-[#312854] hover:scale-110 ease-in duration-200 rounded-md mb-4"
-            href={websiteUrl}
-            target="_blank"
-            style={{ backgroundColor: firstColor }}
-          >
-            Visit Website
-          </a>
-        </div>
-        <div className="mb-5 h-fit border object-contain shadow-md lg:w-6/12 ml-auto">
-          <img src={image} alt={title} className="w-full object-cover" />
+      <div className="h-6 mt-8" style={{ backgroundColor: firstColor }}></div>
+      <div className="lg:wrap pt-10 lg:flex mt-[40px]">
+        <div className="lg:flex lg:w-full">
+          <div className="lg:w-6/12">
+            <a
+              className="border-b-4 text-3xl font-bold hover:opacity-70"
+              href={websiteUrl}
+              target="_blank"
+              style={{ borderBottomColor: firstColor, color: firstColor }}
+            >
+              <span>{title}</span>
+            </a>
+            <p className="pt-5 text-base text-stone-700">{details}</p>
+            <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
+              Front End
+            </h2>
+            <p className="text-base text-stone-700">{frontEnd}</p>
+            <h2 className="text-xl font-semibold" style={{ color: firstColor }}>
+              Back End
+            </h2>
+            <p className="pb-4 text-base text-stone-700">{backEnd}</p>
+            <a
+              className="inline-block text-base px-2 py-1 font-semibold text-white hover:scale-110 ease-in duration-200 rounded-md mb-4"
+              href={websiteUrl}
+              target="_blank"
+              style={{ backgroundColor: firstColor }}
+            >
+              Visit Website
+            </a>
+          </div>
+          <div className="mb-5 h-fit border object-contain shadow-md lg:w-6/12 ml-auto">
+            <img src={image} alt={title} className="w-full object-cover" />
+          </div>
         </div>
       </div>
       <div>
@@ -90,7 +93,6 @@ const ProjectItem = ({
             </div>
           ))}
         </div>
-        <div className="h-6 mt-8" style={{ backgroundColor: firstColor }}></div>
       </div>
     </>
   );
